@@ -1,0 +1,111 @@
+/* base styles */
+
+body {
+  padding-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h1,
+h2 {
+  margin: 0 0 .5em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+
+/* container */
+
+.container-fluid {
+  max-width: 1100px;
+}
+
+
+/* navbar */
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+  padding: 15px 0 15px 15px;
+}
+
+@media (min-width:768px) {
+  .navbar-fixed-top .navbar-brand {
+    padding: 14px 20px 0 0;
+  }
+}
+
+
+/* row */
+
+.row-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+/* banner */
+
+.banner {
+  padding: 30px;
+}
+
+
+/* main -content */
+
+.main-content {
+  border-radius: .3em;
+  background: rgba(0,0,0,.3);
+}
+
+
+/* video-container */
+
+.video-container {
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: url(../img/sitename.jpg);
+  background-size: cover;
+}
+
+
+/* video element */
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+/* video-mask */
+
+.video-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .5;
+  background: #000;
+}
